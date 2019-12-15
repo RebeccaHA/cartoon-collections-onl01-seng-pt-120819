@@ -12,8 +12,8 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls)
-  calls.any? do |planeteer|
-    
+  calls.any? do |character|
+    character.>4 
   
 end
 
