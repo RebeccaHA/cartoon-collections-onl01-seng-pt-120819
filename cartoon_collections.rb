@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  array.collect.each_with_index do|names|
+  array.each_with_index.collect do|names|
     array.join("\n")
     puts array
   end
