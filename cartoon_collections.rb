@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)
   array.collect do |veggies|
-    puts "#{veggies.capitalize}!"
+    return "#{veggies.capitalize}!"
   end
   array
   binding.pry
