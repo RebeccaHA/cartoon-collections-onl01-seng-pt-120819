@@ -6,8 +6,8 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.collect do |veggies|
-    puts "#{veggies.capitalize}!"
+  array.collect.capitalize do |veggies|
+    puts "#{veggies}!"
   end
   array
   binding.pry
