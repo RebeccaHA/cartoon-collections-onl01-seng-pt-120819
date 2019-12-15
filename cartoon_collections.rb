@@ -1,7 +1,6 @@
 def roll_call_dwarves(array)
   array.each_with_index.collect do|names,index|
-    array.join("")
-    puts "#{index}. #{names}"
+    puts "#{index+1}. #{names}"
   end
 end
 
